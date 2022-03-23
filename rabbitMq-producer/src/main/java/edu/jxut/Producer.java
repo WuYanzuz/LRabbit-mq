@@ -66,6 +66,7 @@ public class Producer {
          */
         channel.queueDeclare(QUEUE_NAME, true, false, false, null);
 
+
         // 要发送的信息
         String message = "你好；小兔子！";
         /**
